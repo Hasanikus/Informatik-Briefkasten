@@ -122,7 +122,7 @@ class BriefkastenWindow(object):
         self.setup_content()
 
     def on_received(self, line):
-        self.btn_label_var.set('Anzahl der Briefeinwürfe: {}'.format(line #Variabler Text. Was nach dem : auftaucht ist abhängig vom Signal des Arduinos
+        self.btn_label_var.set('Anzahl der Briefeinwürfe: {}'.format(line)) #Variabler Text. Was nach dem : auftaucht ist abhängig vom Signal des Arduinos
     def setup_window(self):
         self.window= tk.Tk()                         #Setup für Fenstergröße und Titel
         self.window.geometry('175x80')               
