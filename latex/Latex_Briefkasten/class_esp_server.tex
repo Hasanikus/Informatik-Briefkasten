@@ -1,0 +1,204 @@
+\hypertarget{class_esp_server}{}\section{Esp\+Server Class Reference}
+\label{class_esp_server}\index{Esp\+Server@{Esp\+Server}}
+
+
+{\ttfamily \#include $<$Dumb\+Server.\+h$>$}
+
+
+
+Inheritance diagram for Esp\+Server\+:
+% FIG 0
+
+
+Collaboration diagram for Esp\+Server\+:
+% FIG 1
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_esp_server_afcdc76f5ca68d5049657e5d9d971a1c3}{Esp\+Server}} (void)
+\item 
+void \mbox{\hyperlink{class_esp_server_a1d032e732d4733905d676ef016fcd43c}{begin}} (Stream $\ast$esp\+\_\+serial, const char $\ast$ssid, const char $\ast$pass, uint16\+\_\+t port)
+\item 
+void \mbox{\hyperlink{class_esp_server_a55995fd6398892be5768da85dde4f533}{my\+\_\+ip}} (char $\ast$buf, size\+\_\+t buflen)
+\item 
+bool \mbox{\hyperlink{class_esp_server_a6a25e008ded89de0e4599df7170008fb}{connected}} ()
+\item 
+virtual int \mbox{\hyperlink{class_esp_server_aad68b4972f6b8426004feeef6e98d02d}{available}} ()
+\item 
+virtual int \mbox{\hyperlink{class_esp_server_a005a9cd487f4ccb4ccef72197bf263b7}{peek}} ()
+\item 
+virtual int \mbox{\hyperlink{class_esp_server_ae47512714818b3b9a1d29d2bf1f70fdf}{read}} ()
+\item 
+virtual void \mbox{\hyperlink{class_esp_server_a05062a3ac7c70a79e991b66789384bf1}{flush}} ()
+\item 
+virtual size\+\_\+t \mbox{\hyperlink{class_esp_server_a0756c42343195dd1d1aa2f61c9b095bf}{write}} (const uint8\+\_\+t $\ast$buffer, size\+\_\+t size)
+\item 
+size\+\_\+t \mbox{\hyperlink{class_esp_server_aecc7262ee265fd78affe24f35e49e1bb}{write}} (uint8\+\_\+t n)
+\item 
+size\+\_\+t \mbox{\hyperlink{class_esp_server_ae3ba71ceb4df9357d8e258efe3e79f4d}{write}} (unsigned long n)
+\item 
+size\+\_\+t \mbox{\hyperlink{class_esp_server_ac256a11ccc8d32664729a7f5bfc71add}{write}} (long n)
+\item 
+size\+\_\+t \mbox{\hyperlink{class_esp_server_afde7c57b12659422147d9a5e56b76148}{write}} (unsigned int n)
+\item 
+size\+\_\+t \mbox{\hyperlink{class_esp_server_a2a49890c886a2b0569b11e02f986f867}{write}} (int n)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 6 of file Dumb\+Server.\+h.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_esp_server_afcdc76f5ca68d5049657e5d9d971a1c3}\label{class_esp_server_afcdc76f5ca68d5049657e5d9d971a1c3}} 
+\index{Esp\+Server@{Esp\+Server}!Esp\+Server@{Esp\+Server}}
+\index{Esp\+Server@{Esp\+Server}!Esp\+Server@{Esp\+Server}}
+\subsubsection{\texorpdfstring{Esp\+Server()}{EspServer()}}
+{\footnotesize\ttfamily Esp\+Server\+::\+Esp\+Server (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 30 of file Dumb\+Server.\+cpp.
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_esp_server_aad68b4972f6b8426004feeef6e98d02d}\label{class_esp_server_aad68b4972f6b8426004feeef6e98d02d}} 
+\index{Esp\+Server@{Esp\+Server}!available@{available}}
+\index{available@{available}!Esp\+Server@{Esp\+Server}}
+\subsubsection{\texorpdfstring{available()}{available()}}
+{\footnotesize\ttfamily int Esp\+Server\+::available (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Definition at line 141 of file Dumb\+Server.\+cpp.
+
+\mbox{\Hypertarget{class_esp_server_a1d032e732d4733905d676ef016fcd43c}\label{class_esp_server_a1d032e732d4733905d676ef016fcd43c}} 
+\index{Esp\+Server@{Esp\+Server}!begin@{begin}}
+\index{begin@{begin}!Esp\+Server@{Esp\+Server}}
+\subsubsection{\texorpdfstring{begin()}{begin()}}
+{\footnotesize\ttfamily void Esp\+Server\+::begin (\begin{DoxyParamCaption}\item[{Stream $\ast$}]{esp\+\_\+serial,  }\item[{const char $\ast$}]{ssid,  }\item[{const char $\ast$}]{pass,  }\item[{uint16\+\_\+t}]{port }\end{DoxyParamCaption})}
+
+
+
+Definition at line 37 of file Dumb\+Server.\+cpp.
+
+\mbox{\Hypertarget{class_esp_server_a6a25e008ded89de0e4599df7170008fb}\label{class_esp_server_a6a25e008ded89de0e4599df7170008fb}} 
+\index{Esp\+Server@{Esp\+Server}!connected@{connected}}
+\index{connected@{connected}!Esp\+Server@{Esp\+Server}}
+\subsubsection{\texorpdfstring{connected()}{connected()}}
+{\footnotesize\ttfamily bool Esp\+Server\+::connected (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 130 of file Dumb\+Server.\+cpp.
+
+\mbox{\Hypertarget{class_esp_server_a05062a3ac7c70a79e991b66789384bf1}\label{class_esp_server_a05062a3ac7c70a79e991b66789384bf1}} 
+\index{Esp\+Server@{Esp\+Server}!flush@{flush}}
+\index{flush@{flush}!Esp\+Server@{Esp\+Server}}
+\subsubsection{\texorpdfstring{flush()}{flush()}}
+{\footnotesize\ttfamily void Esp\+Server\+::flush (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Definition at line 236 of file Dumb\+Server.\+cpp.
+
+\mbox{\Hypertarget{class_esp_server_a55995fd6398892be5768da85dde4f533}\label{class_esp_server_a55995fd6398892be5768da85dde4f533}} 
+\index{Esp\+Server@{Esp\+Server}!my\+\_\+ip@{my\+\_\+ip}}
+\index{my\+\_\+ip@{my\+\_\+ip}!Esp\+Server@{Esp\+Server}}
+\subsubsection{\texorpdfstring{my\+\_\+ip()}{my\_ip()}}
+{\footnotesize\ttfamily void Esp\+Server\+::my\+\_\+ip (\begin{DoxyParamCaption}\item[{char $\ast$}]{buf,  }\item[{size\+\_\+t}]{buflen }\end{DoxyParamCaption})}
+
+
+
+Definition at line 119 of file Dumb\+Server.\+cpp.
+
+\mbox{\Hypertarget{class_esp_server_a005a9cd487f4ccb4ccef72197bf263b7}\label{class_esp_server_a005a9cd487f4ccb4ccef72197bf263b7}} 
+\index{Esp\+Server@{Esp\+Server}!peek@{peek}}
+\index{peek@{peek}!Esp\+Server@{Esp\+Server}}
+\subsubsection{\texorpdfstring{peek()}{peek()}}
+{\footnotesize\ttfamily int Esp\+Server\+::peek (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Definition at line 214 of file Dumb\+Server.\+cpp.
+
+\mbox{\Hypertarget{class_esp_server_ae47512714818b3b9a1d29d2bf1f70fdf}\label{class_esp_server_ae47512714818b3b9a1d29d2bf1f70fdf}} 
+\index{Esp\+Server@{Esp\+Server}!read@{read}}
+\index{read@{read}!Esp\+Server@{Esp\+Server}}
+\subsubsection{\texorpdfstring{read()}{read()}}
+{\footnotesize\ttfamily int Esp\+Server\+::read (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Definition at line 224 of file Dumb\+Server.\+cpp.
+
+\mbox{\Hypertarget{class_esp_server_a0756c42343195dd1d1aa2f61c9b095bf}\label{class_esp_server_a0756c42343195dd1d1aa2f61c9b095bf}} 
+\index{Esp\+Server@{Esp\+Server}!write@{write}}
+\index{write@{write}!Esp\+Server@{Esp\+Server}}
+\subsubsection{\texorpdfstring{write()}{write()}\hspace{0.1cm}{\footnotesize\ttfamily [1/6]}}
+{\footnotesize\ttfamily size\+\_\+t Esp\+Server\+::write (\begin{DoxyParamCaption}\item[{const uint8\+\_\+t $\ast$}]{buffer,  }\item[{size\+\_\+t}]{size }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Definition at line 241 of file Dumb\+Server.\+cpp.
+
+\mbox{\Hypertarget{class_esp_server_aecc7262ee265fd78affe24f35e49e1bb}\label{class_esp_server_aecc7262ee265fd78affe24f35e49e1bb}} 
+\index{Esp\+Server@{Esp\+Server}!write@{write}}
+\index{write@{write}!Esp\+Server@{Esp\+Server}}
+\subsubsection{\texorpdfstring{write()}{write()}\hspace{0.1cm}{\footnotesize\ttfamily [2/6]}}
+{\footnotesize\ttfamily size\+\_\+t Esp\+Server\+::write (\begin{DoxyParamCaption}\item[{uint8\+\_\+t}]{n }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 33 of file Dumb\+Server.\+h.
+
+\mbox{\Hypertarget{class_esp_server_ae3ba71ceb4df9357d8e258efe3e79f4d}\label{class_esp_server_ae3ba71ceb4df9357d8e258efe3e79f4d}} 
+\index{Esp\+Server@{Esp\+Server}!write@{write}}
+\index{write@{write}!Esp\+Server@{Esp\+Server}}
+\subsubsection{\texorpdfstring{write()}{write()}\hspace{0.1cm}{\footnotesize\ttfamily [3/6]}}
+{\footnotesize\ttfamily size\+\_\+t Esp\+Server\+::write (\begin{DoxyParamCaption}\item[{unsigned long}]{n }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 34 of file Dumb\+Server.\+h.
+
+\mbox{\Hypertarget{class_esp_server_ac256a11ccc8d32664729a7f5bfc71add}\label{class_esp_server_ac256a11ccc8d32664729a7f5bfc71add}} 
+\index{Esp\+Server@{Esp\+Server}!write@{write}}
+\index{write@{write}!Esp\+Server@{Esp\+Server}}
+\subsubsection{\texorpdfstring{write()}{write()}\hspace{0.1cm}{\footnotesize\ttfamily [4/6]}}
+{\footnotesize\ttfamily size\+\_\+t Esp\+Server\+::write (\begin{DoxyParamCaption}\item[{long}]{n }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 35 of file Dumb\+Server.\+h.
+
+\mbox{\Hypertarget{class_esp_server_afde7c57b12659422147d9a5e56b76148}\label{class_esp_server_afde7c57b12659422147d9a5e56b76148}} 
+\index{Esp\+Server@{Esp\+Server}!write@{write}}
+\index{write@{write}!Esp\+Server@{Esp\+Server}}
+\subsubsection{\texorpdfstring{write()}{write()}\hspace{0.1cm}{\footnotesize\ttfamily [5/6]}}
+{\footnotesize\ttfamily size\+\_\+t Esp\+Server\+::write (\begin{DoxyParamCaption}\item[{unsigned int}]{n }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 36 of file Dumb\+Server.\+h.
+
+\mbox{\Hypertarget{class_esp_server_a2a49890c886a2b0569b11e02f986f867}\label{class_esp_server_a2a49890c886a2b0569b11e02f986f867}} 
+\index{Esp\+Server@{Esp\+Server}!write@{write}}
+\index{write@{write}!Esp\+Server@{Esp\+Server}}
+\subsubsection{\texorpdfstring{write()}{write()}\hspace{0.1cm}{\footnotesize\ttfamily [6/6]}}
+{\footnotesize\ttfamily size\+\_\+t Esp\+Server\+::write (\begin{DoxyParamCaption}\item[{int}]{n }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 37 of file Dumb\+Server.\+h.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+Vaneck/\+Desktop/\+Tufan P/\+Code/\+Arduino Programm/\mbox{\hyperlink{_dumb_server_8h}{Dumb\+Server.\+h}}\item 
+C\+:/\+Users/\+Vaneck/\+Desktop/\+Tufan P/\+Code/\+Arduino Programm/\mbox{\hyperlink{_dumb_server_8cpp}{Dumb\+Server.\+cpp}}\end{DoxyCompactItemize}
